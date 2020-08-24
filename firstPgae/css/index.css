@@ -1,0 +1,94 @@
+body,div,form,label,input,button,p,h3,a{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #eeeeee;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.luckbox{
+	position: absolute;
+	padding: 5px 0;
+	height: 100%;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+
+}
+.topbanner{
+	padding: 0 5px;
+	height: 100px;
+}
+.formpname{
+	height: 44px;
+	background-color: #ffffff;
+	padding: 0 10px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	line-height: 44px;
+}
+.personNews form input{
+	border: none;
+	margin-left: 5px;
+	height: 30px;
+}
+.formMobile{
+	background-color: #ffffff;
+	padding: 0 10px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	line-height: 44px;
+	margin-top: 10px;
+}
+.formdiv{
+	position: relative;
+	border-top: 1px solid #eee;
+}
+#verCode{
+	width: 120px;
+}
+#sendBtn{
+	float: right;
+	text-decoration: none;
+}
+#saveBtn{
+	width: 100%;
+	height: 44px;
+	background-color: #199ED8;
+	color: #ffffff;
+	border: none;
+	outline: none;
+}
+.btnbox{
+	padding: 0 5px;
+	margin-top: 10px;
+}
+.results{
+	text-align: center;
+	margin-top: 10px
+}
+.results p{
+	font-size: 14px;
+	color: #333;
+}
+.results h3{
+	font-size: 24px;
+	color: red;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.bottomBanner{
+	height: 100px;
+	padding: 0 5px;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	bottom: 5px;
+}
